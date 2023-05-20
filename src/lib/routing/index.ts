@@ -3,10 +3,10 @@ export type AutoCorsPreflightOptions = {
 };
 
 export type EConfig = {
-  parseCookie: boolean;
-  auto405: boolean;
-  extractRequestParameters: boolean;
-  autoContentType: boolean;
+  parseCookie?: boolean;
+  auto405?: boolean;
+  extractRequestParameters?: boolean;
+  autoContentType?: boolean;
   autoCorsPreflight?: AutoCorsPreflightOptions;
 }
 
